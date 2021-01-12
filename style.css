@@ -1,0 +1,284 @@
+
+#header{
+    background-image: url("./images/Cover.jpg");
+    background-size: cover;
+}
+
+#header nav{
+    background-color: rgba(238, 130, 238,0.8);
+    background-size: cover;
+}
+
+#header div.logo h1{
+    font-weight: 1000;
+    font-size: xxx-large;
+}
+
+#header ul{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+#header li{
+    display: inline-block;
+}
+
+#header ul li a:hover{
+    background-color: rgba(66, 117, 168, 0.8);
+    border: 1px solid  rgba(52, 73, 94);
+    font-size: x-large;
+    font-weight: 1000;
+}
+
+#header ul li a{
+    color: white;
+    display: block;
+    padding: 16px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+@media(max-width: 448px){
+    #header ul li a{
+        color: white;
+        display: block;
+        padding: 16px 1px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: 200;
+        font-size: smaller;
+    }
+    #header ul li a:hover{
+        background-color: rgba(238, 130, 238,0.5);
+        border: 1px solid  rgba(52, 73, 94);
+    }   
+}
+
+/* ...............End................................................... */
+
+
+#bannerheading div.container{
+padding: 100px 0px 200px 0px ;
+}
+
+
+#bannerheading div.heading{
+    background-color:  rgba(245, 245, 245,0.5);
+    display: inline-block;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#bannerheading div.paragraph{
+    background-color:  rgba(238, 130, 238,0.5);
+    padding: 10px;
+}
+/* ....................End........................... */
+#servicesection{
+    background-color: whitesmoke;
+}
+
+#servicesection div.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#servicesection h2{
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+#servicesection h2::after{
+    background-color: rgb(238, 130, 238);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 25px auto;
+    
+}
+
+#servicesection i{
+    color: rgb(238, 130, 238);
+}
+
+#servicesection h3{
+    font-weight: 600;
+    font-size: xx-large;
+}
+/* .................End.......................................... */
+#testimonials{
+    background-image: url("./images/Body.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#testimonials div.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(44, 62, 80,0.5);
+}
+
+#testimonials div.blocksize{
+    padding: 80px 40px;
+}
+
+#testimonials div img{
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+#testimonials h2{
+    color: white;
+    font-weight: xx-larger;
+}
+
+#testimonials p{
+    color: whitesmoke;
+}
+
+
+#testimonials h4{
+    color: whitesmoke;
+}
+/* .................End.................... */
+#newssection{
+    background-color: whitesmoke;
+}
+
+#newssection div.container{
+    padding: 50px 0px 50px 0px;
+}
+
+#newssection h2{
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+#newssection h2::after{
+    background-color: rgb(238, 130, 238);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 25px auto;
+    
+}
+#newssection a{
+    text-decoration: none;
+    color: rgb(238, 130, 238);
+}
+
+#newssection i.texticon{
+    color: rgb(238, 130, 238);
+}
+
+#newssection h5{
+    color: rgb(238, 130, 238);
+}
+
+/* .................End................ */
+#footer{
+    background-color: #34495e;
+}
+
+#footer div.container{
+    padding: 35px 0px 50px 0px;
+}
+
+#footer h3{
+    color: whitesmoke;
+}
+#footer h4{
+    color: whitesmoke;
+}
+#footer h3::after{
+    background-color: whitesmoke;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 18px 2px;   
+}
+
+
+#footer h3.news{
+    margin-left: 40px;
+}
+
+#footer p{
+    color: white;
+}
+#footer ul{
+    list-style: none;
+}
+#footer li{
+    color: white;
+}
+/* ................End................. */
+
+#mainfooter{
+    background-color: #2c3e50;
+}
+
+#mainfooter div.container{
+    padding: 18px 0px 18px 0px;
+}
+
+#mainfooter h4{
+    color: grey;
+}
+#mainfooter ul{
+    list-style: none;
+}
+
+#mainfooter li{
+    display: inline-block;
+}
+
+#mainfooter i{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
